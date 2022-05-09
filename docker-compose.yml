@@ -1,0 +1,5 @@
+version: '3'
+services:
+  birdbrain-python:
+    build: .
+    image: ${DOCKER_REGISTRY}/${PROJECT_NAMESPACE}
